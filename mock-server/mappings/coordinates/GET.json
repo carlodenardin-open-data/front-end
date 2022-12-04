@@ -1,0 +1,42 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/api/v1/coordinates"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Access-Control-Allow-Origin": "*",
+      "Content-Type": "application/json"
+    },
+    "jsonBody": [
+      {
+        "id": 1,
+        "latitude": 1.0,
+        "longitude": 1.0,
+        "createdAt": "2020-01-01T00:00:00.000+0000",
+        "createdBy": "user1",
+        "updatedAt": "2020-01-01T00:00:00.000+0000",
+        "updatedBy": "user1"
+      },
+      {
+        "id": 2,
+        "latitude": 58.0,
+        "longitude": 9.0,
+        "createdAt": "2020-01-01T00:00:00.000+0000",
+        "createdBy": "user1",
+        "updatedAt": "2020-01-01T00:00:00.000+0000",
+        "updatedBy": "user1"
+      },
+      {
+        "id": 3,
+        "latitude": -5.0,
+        "longitude": 9.0,
+        "createdAt": "2020-01-01T00:00:00.000+0000",
+        "createdBy": "user1",
+        "updatedAt": "2020-01-01T00:00:00.000+0000",
+        "updatedBy": "user1"
+      }
+    ]
+  }
+}
